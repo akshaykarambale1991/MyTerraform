@@ -5,8 +5,8 @@
     stage('Init') {
       steps {
 	      echo "INIT"
-        bat 'terraform init'
-      
+       // bat 'terraform init'
+      sh 'terraform init'
     
       }
     }
